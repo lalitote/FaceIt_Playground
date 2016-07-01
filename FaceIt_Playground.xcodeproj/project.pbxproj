@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA06F57D1D268E350001E9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06F57C1D268E350001E9D4 /* AppDelegate.swift */; };
+		EA06F57F1D268E350001E9D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06F57E1D268E350001E9D4 /* ViewController.swift */; };
+		EA06F5821D268E350001E9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA06F5801D268E350001E9D4 /* Main.storyboard */; };
+		EA06F5841D268E350001E9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA06F5831D268E350001E9D4 /* Assets.xcassets */; };
+		EA06F5871D268E350001E9D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA06F5851D268E350001E9D4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA06F5791D268E350001E9D4 /* FaceIt_Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt_Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA06F57C1D268E350001E9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA06F57E1D268E350001E9D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA06F5811D268E350001E9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA06F5831D268E350001E9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA06F5861D268E350001E9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA06F5881D268E350001E9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA06F5761D268E350001E9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA06F5701D268E350001E9D4 = {
+			isa = PBXGroup;
+			children = (
+				EA06F57B1D268E350001E9D4 /* FaceIt_Playground */,
+				EA06F57A1D268E350001E9D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA06F57A1D268E350001E9D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA06F5791D268E350001E9D4 /* FaceIt_Playground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA06F57B1D268E350001E9D4 /* FaceIt_Playground */ = {
+			isa = PBXGroup;
+			children = (
+				EA06F57C1D268E350001E9D4 /* AppDelegate.swift */,
+				EA06F57E1D268E350001E9D4 /* ViewController.swift */,
+				EA06F5801D268E350001E9D4 /* Main.storyboard */,
+				EA06F5831D268E350001E9D4 /* Assets.xcassets */,
+				EA06F5851D268E350001E9D4 /* LaunchScreen.storyboard */,
+				EA06F5881D268E350001E9D4 /* Info.plist */,
+			);
+			path = FaceIt_Playground;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA06F5781D268E350001E9D4 /* FaceIt_Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA06F58B1D268E350001E9D4 /* Build configuration list for PBXNativeTarget "FaceIt_Playground" */;
+			buildPhases = (
+				EA06F5751D268E350001E9D4 /* Sources */,
+				EA06F5761D268E350001E9D4 /* Frameworks */,
+				EA06F5771D268E350001E9D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceIt_Playground;
+			productName = FaceIt_Playground;
+			productReference = EA06F5791D268E350001E9D4 /* FaceIt_Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA06F5711D268E350001E9D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lalitote;
+				TargetAttributes = {
+					EA06F5781D268E350001E9D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EA06F5741D268E350001E9D4 /* Build configuration list for PBXProject "FaceIt_Playground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA06F5701D268E350001E9D4;
+			productRefGroup = EA06F57A1D268E350001E9D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA06F5781D268E350001E9D4 /* FaceIt_Playground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA06F5771D268E350001E9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA06F5871D268E350001E9D4 /* LaunchScreen.storyboard in Resources */,
+				EA06F5841D268E350001E9D4 /* Assets.xcassets in Resources */,
+				EA06F5821D268E350001E9D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA06F5751D268E350001E9D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA06F57F1D268E350001E9D4 /* ViewController.swift in Sources */,
+				EA06F57D1D268E350001E9D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA06F5801D268E350001E9D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA06F5811D268E350001E9D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA06F5851D268E350001E9D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA06F5861D268E350001E9D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA06F5891D268E350001E9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA06F58A1D268E350001E9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA06F58C1D268E350001E9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FaceIt_Playground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lalitote.FaceIt-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA06F58D1D268E350001E9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FaceIt_Playground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lalitote.FaceIt-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA06F5741D268E350001E9D4 /* Build configuration list for PBXProject "FaceIt_Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA06F5891D268E350001E9D4 /* Debug */,
+				EA06F58A1D268E350001E9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA06F58B1D268E350001E9D4 /* Build configuration list for PBXNativeTarget "FaceIt_Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA06F58C1D268E350001E9D4 /* Debug */,
+				EA06F58D1D268E350001E9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA06F5711D268E350001E9D4 /* Project object */;
+}
