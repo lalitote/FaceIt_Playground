@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA01EC961D47AB1B006CD762 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA01EC951D47AB1B006CD762 /* FacialExpression.swift */; };
 		EA06F57D1D268E350001E9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06F57C1D268E350001E9D4 /* AppDelegate.swift */; };
 		EA06F57F1D268E350001E9D4 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06F57E1D268E350001E9D4 /* FaceViewController.swift */; };
 		EA06F5821D268E350001E9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA06F5801D268E350001E9D4 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA01EC951D47AB1B006CD762 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		EA06F5791D268E350001E9D4 /* FaceIt_Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt_Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA06F57C1D268E350001E9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA06F57E1D268E350001E9D4 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				EA06F57E1D268E350001E9D4 /* FaceViewController.swift */,
 				EA06F5801D268E350001E9D4 /* Main.storyboard */,
 				EA06F58F1D268FB20001E9D4 /* FaceView.swift */,
+				EA01EC951D47AB1B006CD762 /* FacialExpression.swift */,
 				EA06F58E1D268E430001E9D4 /* Other Files */,
 			);
 			path = FaceIt_Playground;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA06F57F1D268E350001E9D4 /* FaceViewController.swift in Sources */,
+				EA01EC961D47AB1B006CD762 /* FacialExpression.swift in Sources */,
 				EA06F57D1D268E350001E9D4 /* AppDelegate.swift in Sources */,
 				EA06F5901D268FB20001E9D4 /* FaceView.swift in Sources */,
 			);
@@ -300,6 +304,7 @@
 				EA06F58D1D268E350001E9D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
