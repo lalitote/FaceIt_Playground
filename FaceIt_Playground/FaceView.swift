@@ -30,6 +30,16 @@ class FaceView: UIView {
     @IBInspectable
     var lineWidth: CGFloat = 5.0 { didSet { setNeedsDisplay() } }
     
+    func changeScale(recognizer: UIPinchGestureRecognizer) {
+        switch recognizer.state {
+        case .Changed,.Ended:
+            scale *= recognizer.scale
+            recognizer.scale = 1.0
+        default:
+            break
+        }
+    }
+    
     private var faceSide: CGFloat {
         return min(bounds.size.width, bounds.size.height) * scale
     }
@@ -102,7 +112,7 @@ class FaceView: UIView {
     private func pathForEyePupil(eye: Eye) -> UIBezierPath {
         var eyePupil = getEyeCenter(eye)
         let eyeRadius = faceSide / Ratios.FaceSideToEyeRadius
-        let eyeLook = CGFloat(max(-1, min(eyePupilLocation, 1))) * eyeRadius * scale
+        let eyeLook = CGFloat(max(-1, min(eyePupilLocation, 1))) * eyeRadius * 0.75
         eyePupil.x += eyeLook
         let eyePupilRadius = faceSide / Ratios.FaceSideToEyePupil
         colorPupil.setFill()

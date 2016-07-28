@@ -59,8 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				EA06F57E1D268E350001E9D4 /* FaceViewController.swift */,
-				EA06F5801D268E350001E9D4 /* Main.storyboard */,
 				EA06F58F1D268FB20001E9D4 /* FaceView.swift */,
+				EA06F5801D268E350001E9D4 /* Main.storyboard */,
 				EA01EC951D47AB1B006CD762 /* FacialExpression.swift */,
 				EA06F58E1D268E430001E9D4 /* Other Files */,
 			);

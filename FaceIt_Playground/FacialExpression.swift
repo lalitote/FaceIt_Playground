@@ -29,6 +29,20 @@ struct FacialExpression {
         }
     }
     
+    enum EyePupil: Int {
+        case Left
+        case Center
+        case Right
+        
+        func moreLeftish() -> EyePupil {
+            return EyePupil(rawValue: rawValue - 1) ?? .Center
+        }
+        
+        func moreRightish() -> EyePupil {
+            return EyePupil(rawValue: rawValue + 1) ?? .Center
+        }
+    }
+    
     enum Mouth: Int {
         case Frown
         case Smirk
@@ -47,5 +61,7 @@ struct FacialExpression {
     
     var eyes: Eyes
     var eyeBrows: EyeBrows
+    var eyePupil: EyePupil
     var mouth: Mouth
+    
 }
