@@ -10,15 +10,15 @@ import UIKit
 
 class EmotionsViewController: UIViewController {
     
-    private let emotionalFace: Dictionary<String,FacialExpression> = [
-        "angry" : FacialExpression(eyes: .Closed, eyeBrows: .Furrowed, eyePupil: .Left, mouth: .Frown),
-        "worried" : FacialExpression(eyes: .Open, eyeBrows: .Relaxed, eyePupil: .Right, mouth: .Smirk),
-        "happy" : FacialExpression(eyes: .Open, eyeBrows: .Normal, eyePupil: .Center, mouth: .Smile),
-        "mischievious" : FacialExpression(eyes: .Open, eyeBrows: .Furrowed, eyePupil: .Left, mouth: .Grin)
+    fileprivate let emotionalFace: Dictionary<String,FacialExpression> = [
+        "angry" : FacialExpression(eyes: .closed, eyeBrows: .furrowed, eyePupil: .left, mouth: .frown),
+        "worried" : FacialExpression(eyes: .open, eyeBrows: .relaxed, eyePupil: .right, mouth: .smirk),
+        "happy" : FacialExpression(eyes: .open, eyeBrows: .normal, eyePupil: .center, mouth: .smile),
+        "mischievious" : FacialExpression(eyes: .open, eyeBrows: .furrowed, eyePupil: .left, mouth: .grin)
     ]
 
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        var destinationvc = segue.destinationViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var destinationvc = segue.destination
         if let navcon = destinationvc as? UINavigationController {
             destinationvc = navcon.visibleViewController ?? destinationvc
         }
